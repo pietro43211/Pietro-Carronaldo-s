@@ -1,5 +1,5 @@
 :root {
-    --Pietro_branco: #16bcda;
+    --Pietro_branco: #8aecff;
     --Pietro_preto: #000000;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #08df08, #7b069e);
+    background: linear-gradient(90deg, #030164, #7b069e);
     color: var(--Pietro_preto);
     text-align: center;
     /* centralizado */
@@ -27,4 +27,9 @@ header {
 header h1 {
     font-size: 2.5rem;
     letter-spacing: 15px;
+}
+
+header p {
+    font-size: 1.1;
+    margin-top: 20px;
 }
